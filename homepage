@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Curiosità Animali</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Curiosità Animali</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ornitorinco.html">Ornitorinco</a></li>
+        <li><a href="giraffa.html">Giraffa</a></li>
+        <li><a href="panda.html">Panda</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <p>
+        Benvenuti su Curiosità Animali! Questo sito raccoglie informazioni e curiosità su tanti animali, in modo divertente ma veritiero.
+      </p>
+    </section>
+    <section class="categories">
+      <h2>Categorie</h2>
+      <!-- Esempio di categoria: Mammiferi -->
+      <div class="category-box">
+        <h3>Mammiferi</h3>
+        <ul>
+          <li><a href="ornitorinco.html">Ornitorinco</a></li>
+          <li><a href="giraffa.html">Giraffa</a></li>
+          <li><a href="panda.html">Panda</a></li>
+        </ul>
+      </div>
+      <!-- Qui potrai aggiungere altre categorie (es. Rettili, Pesci, Uccelli, ecc.) -->
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Curiosità Animali. Tutti i diritti riservati.</p>
+  </footer>
+</body>
+</html>
