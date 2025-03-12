@@ -1,18 +1,29 @@
-/* Stile generale */
+/* Sfondo che ricorda le foreste sui margini */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
-  color: #333;
   margin: 0;
   padding: 0;
+  background: url('https://picsum.photos/seed/forest/1600/900') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
-/* Header e navigazione */
-header {
-  background-color: #4CAF50;
-  color: white;
+/* Contenitore centrale: 60% di larghezza, margini laterali del 20% */
+.container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9); /* Leggera trasparenza per far intravedere lo sfondo */
   padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header e navigazione centrati */
+header {
   text-align: center;
+  margin-bottom: 20px;
+}
+header h1 {
+  margin: 0;
 }
 nav ul {
   list-style: none;
@@ -23,20 +34,26 @@ nav ul li {
   margin: 0 10px;
 }
 nav ul li a {
-  color: white;
   text-decoration: none;
+  color: #4CAF50;
+}
+nav ul li a:hover {
+  text-decoration: underline;
 }
 
-/* Sezioni principali */
-.intro {
-  padding: 20px;
+/* Testo dei paragrafi centrato */
+p {
   text-align: center;
 }
+
+/* Sezioni */
+.intro {
+  margin-bottom: 30px;
+}
 .categories {
-  padding: 20px;
+  margin-bottom: 30px;
 }
 .category-box {
-  background-color: #fff;
   border: 2px solid #4CAF50;
   border-radius: 8px;
   padding: 15px;
@@ -48,17 +65,7 @@ nav ul li a {
 
 /* Footer */
 footer {
-  background-color: #4CAF50;
-  color: white;
   text-align: center;
   padding: 10px;
-}
-
-/* Link */
-a {
-  text-decoration: none;
-  color: #4CAF50;
-}
-a:hover {
-  text-decoration: underline;
+  border-top: 1px solid #ccc;
 }
