@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ornitorinco - Curiosità Animali</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Ornitorinco</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ornitorinco.html">Ornitorinco</a></li>
+        <li><a href="giraffa.html">Giraffa</a></li>
+        <li><a href="panda.html">Panda</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="content">
+      <h2>Curiosità sull'Ornitorinco</h2>
+      <p>
+        L'ornitorinco è uno degli animali più unici al mondo: un mammifero che depone uova e possiede un becco simile a quello di un'anatra e una coda piatta come quella di un castoro.
+      </p>
+      <img src="https://picsum.photos/seed/ornitorinco/600/400" alt="Immagine Ornitorinco">
+      <p>
+        Originario dell'Australia, l'ornitorinco affascina per il suo aspetto bizzarro e le sue peculiari abilità naturali.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Curiosità Animali. Tutti i diritti riservati.</p>
+  </footer>
+</body>
+</html>
