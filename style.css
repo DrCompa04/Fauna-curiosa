@@ -1,100 +1,122 @@
-/* Background forestale sui margini */
+/* Background forestale su tutto il body */
 body {
   margin: 0;
   padding: 0;
   background: url('https://source.unsplash.com/1600x900/?forest,trees') no-repeat center center fixed;
   background-size: cover;
   font-family: Arial, sans-serif;
-  color: #333;
+  color: #fff;
 }
 
-/* Contenitore centrale: occupa 60% della larghezza (3/5) e si posiziona al centro */
+/* Contenitore centrale (3/5 della larghezza) con margini laterali trasparenti */
 .container {
   width: 60%;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.95);
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background: transparent; /* Trasparente per mostrare il background */
 }
 
-/* Header e navigazione */
+/* Header e navigazione centrati */
 header {
   text-align: center;
   margin-bottom: 20px;
 }
+
 header h1 {
   margin: 0;
+  font-size: 2.5em;
 }
+
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 10px 0;
 }
+
 nav ul li {
   display: inline-block;
   margin: 0 10px;
 }
+
 nav ul li a {
   text-decoration: none;
-  color: #4CAF50;
+  color: #aaffaa;
   font-weight: bold;
 }
+
 nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Stile generale per i paragrafi e il contenuto principale */
+/* Main e paragrafi centrati */
 main {
   text-align: center;
 }
+
+p {
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Articoli per le varie sezioni */
 article {
   margin-bottom: 30px;
 }
+
 article h3 {
   margin-top: 20px;
-  color: #4CAF50;
+  color: #aaffaa;
+  text-align: center;
 }
 
-/* Stile per le immagini */
+/* Immagini centrate */
 img {
   max-width: 100%;
   height: auto;
-  margin: 10px 0;
+  display: block;
+  margin: 10px auto;
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 10px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid rgba(255,255,255,0.5);
   margin-top: 20px;
 }
 
 /* Stile per le categorie nella homepage */
 .categories {
-  text-align: left;
+  text-align: center;
 }
+
 .category-box {
-  border: 2px solid #4CAF50;
+  border: 2px solid #aaffaa;
   border-radius: 8px;
   padding: 15px;
   margin: 10px 0;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(0,0,0,0.5);
 }
+
 .category-box h3 {
   margin-top: 0;
-  color: #4CAF50;
+  color: #aaffaa;
 }
+
 .category-box ul {
   list-style: none;
   padding: 0;
 }
+
 .category-box ul li {
   margin: 5px 0;
 }
+
 .category-box ul li a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
 }
+
 .category-box ul li a:hover {
-  color: #4CAF50;
+  color: #aaffaa;
 }
